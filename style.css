@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a :hover{
+    transform: scale(1.05);
+    transition: .6s;
+    
+}
+
+.div1{
+    height: 500px;
+    background-image: url(https://p2turbo.net/wp-content/uploads/2022/06/dsat_1033.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.texto1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto1 .h2-branco{
+    color: white;
+    font-size: 50px;
+}
+
+.texto1  p{
+    color: white;
+    font-size: 20px;
+}
+
+.texto1 .h2-vermelho{
+    color: #f04044;
+    font-size: 50px;
+}
+
+.texto1 a{
+    font-size: 20px;
+    border: 1px white solid;
+    color: white;
+    background-color: #f04044;
+    border-radius: 40px;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+.div2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.939);
+}
+
+.box1, .box2, .box3{
+    height: 350px;
+    width: 300px;
+    margin-left: 15px;
+    border-radius: 20px;
+
+    background-image: linear-gradient(to right, #4c1b1b2b, #f0404385);
+    
+    
+}
+
+.div2 img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.div2 p{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.945);
+    margin-top: 20px;
+    justify-content: center;
+  
+}
+
+.div3{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.939);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 60px;
+
+}
+
+.div3 h3{
+color: white;
+font-size: 30px;
+margin-bottom: 10px;
+text-decoration: underline;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+.div3 img{
+    height: 500px;
+    width: 500px;
+    margin-right: 100px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.sobre{
+    margin: 50px 0px 0px 30px;
+}
+.div3 span{
+    color: #f1463f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.div3 p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.paragrafos {
+    color: rgba(255, 255, 255, 0.839);
+    font-size: 20px;
+}
+
+.div4{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.939);
+    justify-content: center;
+    
+}
+
+.caixa1{
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #f0404314;
+    
+    
+}
+
+.div4 p{
+    color: #f04044;
+   
+}
+
+.div4 span{
+    font-weight: bolder;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.caixas{
+    display: flex;
+    background-image: linear-gradient(to right, #4c1b1b2b, #f040434c);}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.caixas{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.caixas p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.div5{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.939);
+    justify-content: center;
+    border: 1px solid black;
+    
+}
+
+.div5 h3,p{
+    text-align: center;
+
+}
+
+.div5 h3{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div5 p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+/*     margin-left: 30px;
+ */}
+
+.valores{
+    border: 1px solid rgb(230, 230, 230);
+    width: 250px;
+    height: 600px;
+/*     margin-left: 10px;
+ */    border-radius: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, #4c1b1b2b, #f040434c);
+    display: flex;
+    flex-direction: column;
+}
+
+.valores-anual{
+    border: 1px solid rgb(230, 230, 230);
+    width: 250px;
+    height: 600px;
+/*     margin-left: 10px;
+ */    border-radius: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgb(213, 118, 23), rgb(250, 50, 84));
+
+}
+
+
+.planos p{
+    color: #f04044;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.valores-anual p{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.valores span{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+
+   
+}
+
+.valores h4{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.pacote{
+    font-size: 10px;
+    font-weight: 200;
+    
+}
+
+.valores-anual span{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.valores-anual h4{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+.valores a {
+    font-size: 20px;
+    border: 1px white solid;
+    color: white;
+    background-color: #f04044;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.valores-anual a {
+    font-size: 20px;
+    border: 1px white solid;
+    color: white;
+    background-color: #f04044;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.rodape{
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(213, 118, 23), rgb(250, 50, 84));
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .div1{
+        justify-content: center;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .div2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+  /*   .div2 img{
+        margin-left: 92px;
+    } */
+
+    .div2 .box1, .box2, .box3{
+        margin: 5px;
+        width: 70%;
+    }
+
+    .div3{
+        height: auto;
+        width: 100%;
+        padding-bottom: 30px;
+        flex-direction: column;
+        
+
+    }
+
+    .div3 img{
+        height: 300px;
+        width: 400px;
+        
+    }
+
+    .div3 div{
+        flex-direction: column;
+    }
+
+    .div3 img{
+        align-items: center;
+        padding-left: 150px;
+    }
+
+    .div4{
+        flex-direction: column;
+    }
+
+    .div4 .container{
+        flex-direction: column;
+        
+    }
+
+    .div4 .caixas{
+        width: auto;
+    }
+
+    .div5 .planos {
+/*         flex-direction: column;
+ */        flex-wrap: wrap;
+        align-content: center;
+      
+    }
+
+    .div5 .valores{
+        width: 500px;
+    }
+
+    .div5 .valores-anual{
+        width: 500px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .div1{
+        justify-content: center;
+    }
+
+    .div2{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .div2 .box1, .box2, .box3{
+        margin: 5px;
+        width: 70%;
+    }
+
+   /*  .div2 img{
+        margin-left: 159px;
+    } */
+
+    .div3{
+        height: auto;
+        width: 100%;
+
+    }
+
+    .div3 div{
+        flex-direction: column;
+    }
+
+ /*    .div3 img{
+        padding-left: 150px;
+        width: 500px;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+ */
+    .div4{
+        flex-direction: column;
+    }
+
+    .div4 .container{
+        flex-direction: column;
+    }
+
+    .div4 .caixas{
+        width: 600px;
+    }
+
+    .div5 .planos {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        
+      
+    }
+
+        .div5 h3{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+    .div5 .valores{
+        width: 500px;
+    }
+
+    .div5 .valores-anual{
+        width: 500px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .div2{
+        display: flex;
+        flex-direction: row;
+    }
+
+   /*  .div2 img{
+        margin-left: 89px;
+    } */
+    
+    .div2 .box1, .box2, .box3{
+        height: 350px;
+        width: 300px;
+        margin-left: 15px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #4c1b1b2b, #f0404385);
+        
+    }
+
+    .div2 .container{
+        display: flex;
+    }
+
+  /*   .div3 img{
+       padding-left: 500px;
+       width: 700px;
+
+    } */
+
+    .div4 .container{
+        flex-direction: row;
+    }
+    
+    .div4 .caixas{
+        width: 243px;
+        height: 300px;
+        border-radius: 20px;
+
+    }
+    
+    .div5{
+        flex-direction: row;
+    }
+    
+    .div5 .planos{
+        flex-direction: unset;
+        flex-wrap: unset;
+    }
+    
+    .div5 .valores{
+        width: 250px;
+        height: 600px;
+    }
+
+    .div5 .valores-anual{
+        width: 250px;
+        height: 600px;
+    }
+}
